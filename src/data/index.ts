@@ -28,9 +28,9 @@ export const EXPERIENCE: Experience[] = [
     location: "London, UK (Remote)",
     period: { from: "August 2024", to: "October 2024" },
     bullets: [
-      "Built a Ray-orchestrated retrieval-augmented generation (RAG) ETL pipeline to automate M&A intelligence extraction from PDFs, SEC filings and news articles.",
-      "Developed an entity resolution layer unifying bank identifiers and name variants into consistent entity IDs to improve retrieval accuracy.",
-      "Benchmarked Hugging Face models in DSPy across faithfulness, latency and cost per token.",
+      "Built a Ray-orchestrated RAG ETL pipeline automating intelligence extraction from PDFs, SEC filings, and news.",
+      "Developed an entity resolution layer unifying bank identifiers and name variants into canonical entities to improve retrieval accuracy.",
+      "Benchmarked Hugging Face models with DSPy across faithfulness, latency and cost per token to guide inference model selection.",
     ],
   },
 ];
@@ -40,25 +40,13 @@ export const PROJECTS: Project[] = [
     name: "Neural Network Dynamics Analysis",
     description: "Undergraduate dissertation",
     bullets: [
-      "Trained and tracked Neural ODE models in MLflow to learn quaternion composition without explicit normalisation.",
+      "Trained and tracked Neural ODE models with MLflow to learn quaternion composition without explicit normalisation.",
       "Interpreted learned strategies using Jacobian analysis, finding consistent norm reduction across trajectories.",
     ],
   },
 ];
 
 export const SKILLS: SkillGroup[] = [
-  {
-    label: "Programming Languages",
-    items: ["Python", "C", "C++", "Rust"],
-  },
-  {
-    label: "Machine Learning",
-    items: ["PyTorch", "MLflow", "Ray", "DSPy"],
-  },
-  {
-    label: "Data",
-    items: ["Spark", "Pandas", "PostgreSQL", "Milvus", "QGIS"],
-  },
 ];
 
 export const EDUCATION: Education[] = [
